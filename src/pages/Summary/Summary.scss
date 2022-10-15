@@ -1,0 +1,30 @@
+.summary {
+  &__record-button {
+    background-color: #2142ba;
+    color: white;
+    border-radius: 100px;
+    background-image: url("../../assets//Images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 0.5rem;
+    width: 15rem;
+    font-weight: 600;
+    font-size: 15px;
+    padding:0rem 2rem;
+    line-height: 24px;
+    font-family: "Pop";
+  }
+  &__logo {
+    width: 7rem;
+    height: 1rem;
+  }
+  &__header {
+    display: flex;
+justify-content: space-between;
+  }
+  &__container {
+    border: 1px solid #C5C5CB;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 30px;
+  }
+}
