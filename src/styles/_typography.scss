@@ -1,16 +1,25 @@
-/* Normal / Normal */
+/* Black */
 @font-face {
-    font-family: "AvenirNextLTPro";
-    src: url("../../assets/Font/Alternative files/AvenirNextLTPro.ttf") format("truetype"),
-         url("../../assets/Font/AvenirNextLTPro-Regular.otf") format("opentype");
-    font-weight: 400;
+    font-family: "PoppinsBlack";
+    src: url("../../assets/Fonts/Poppins-Black.ttf") format("truetype"),
 }
+
 
 /* Bold */
 @font-face {
-    font-family: "AvenirNextLTPro";
-    src: url("../../assets/Font/Alternative files/AvenirNextLTProBold.ttf") format("truetype"),
-         url("../../assets/Font/AvenirNextLTPro-Bold.otf") format("opentype");
-    font-weight: 700;
+    font-family: "PoppinsBold";
+    src: url("../../assets/Fonts/Poppins-Bold.ttf") format("truetype"),
 }
+/* Medium */
+@font-face {
+    font-family: "PoppinsMedium";
+    src: url("../../assets/Fonts/Poppins-Medium.ttf") format("truetype"),
+}
+
+/* Regular */
+@font-face {
+    font-family: "Poppins";
+    src: url("../../assets/Fonts/Poppins-Regular.ttf") format("truetype"),
+}
+
 
