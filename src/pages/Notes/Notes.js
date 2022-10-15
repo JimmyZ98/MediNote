@@ -10,7 +10,6 @@ function Notes() {
             src={require("../../assets/Images/Logo.png")}
           />
           <button className="notes__record-button">
-            {" "}
             Record new Patient Note
           </button>
         </div>
@@ -28,18 +27,26 @@ function Notes() {
                   Type of Appointment: General Visit
                 </div>
                 <div className="notes__patient-purpose">
-                  Purpose of Visit: Abdominal Pain{" "}
+                  Purpose of Visit: Abdominal Pain
                 </div>
               </div>
             </div>
-            <div className="notes__patients-notes">
-                <h2>Doctor's Note</h2>
+            <div className="notes__bottom">
+              <div className="notes__patient-notes">
+                <h2 className="notes__patient-heading">Doctor's Note</h2>
                 <p></p>
-                <div className="notes__categories">
-                    <div className="notes__symptoms"></div>
-                    <div className="notes__prescription"></div>
-                    <div className="notes__keywords"></div>
-                </div>
+              </div>
+              <div className="notes__categories">
+                <div className="notes__keywords">Keywords</div>
+              </div>
+            </div>
+          </div>
+          <div className="notes__buttons">
+            <button className="notes__buttons-delete">Delete</button>
+            <div className="notes__buttons-container">
+              <button className="notes__buttons-record">Record Again</button>
+              <button className="notes__buttons-edit">Edit Note</button>
+              <button className="notes__buttons-share">Share Note</button>
             </div>
           </div>
         </div>
