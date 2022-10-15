@@ -4,15 +4,6 @@ function Notes() {
   return (
     <>
       <div className="notes">
-        <div className="notes__header">
-          <img
-            className="notes__logo"
-            src={require("../../assets/Images/Logo.png")}
-          />
-          <button className="notes__record-button">
-            Record new Patient Note
-          </button>
-        </div>
         <div className="notes__container">
           <div className="notes__patient">
             <div className="notes__patient-info">
