@@ -84,9 +84,6 @@ function Notes() {
                   <p></p>
                 </div>
                 <div className="notes__categories">
-                <div className="notes__symptoms">Symptom</div>
-                <div className="notes__condition">Condition</div>
-                <div className="notes__prescription">Prescription</div>
                   <div className="notes__keywords">Keywords</div>
                   <div className="keywords">
                     {highlightedWords.map((word) => {
