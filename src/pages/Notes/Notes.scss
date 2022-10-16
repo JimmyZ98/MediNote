@@ -108,19 +108,19 @@
     font-size: 1rem;
     font-family: "PoppinsMedium";
     padding: 1rem 0rem;
-    display: flex;
-    flex-direction: row;
   }
   &__categories {
     width: 20vw;
   }
 }
 
-.keywords__block {
+.keywords{
+  display: flex;
+  &__block {
   background-color: #eedcfc;
   border-radius: 30px;
   color: #915db9;
   text-align: center;
   margin: 5px;
   padding: 5px;
-}
+}}
