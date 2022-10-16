@@ -29,6 +29,7 @@ function Notes() {
               </div>
               <div className="notes__categories">
                 <div className="notes__keywords">Keywords</div>
+                <div className="notes__keywords">Medical Condition</div>
               </div>
             </div>
           </div>

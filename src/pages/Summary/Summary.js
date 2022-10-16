@@ -6,7 +6,7 @@ function Summary() {
     <>
       <div className="summary">
         <div className="summary__container">
-          <div className="summary__title">Patient roster</div>
+          <div className="summary__title">Patient: Lydia</div>
         </div>
         <Cards/>
       </div>
