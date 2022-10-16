@@ -7,7 +7,7 @@ return ( <div className="header">
   src={require("../../assets/Images/Logo.png")}
 />
 <button className="header__record-button">
-  Record new Patient Note
+  Record New Note
 </button>
 </div>)}
 
