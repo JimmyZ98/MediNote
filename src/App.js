@@ -1,9 +1,13 @@
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Summary from './pages/Summary/Summary';
+import Notes from './pages/Notes/Notes';
+import Header from './components/Header/Header'
+
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Summary from "./pages/Summary/Summary";
-import Notes from "./pages/Notes/Notes";
+
 
 function App() {
   const [tsData, settsData] = useState("");
@@ -35,6 +39,7 @@ if (patientId != null) {
 
   return (
     <BrowserRouter>
+    <Header/>
       <Routes>
         <Route path="/" element={<Summary />} />
         <Route path="/notesId" element={<Notes tsData = {tsData} patientId={patientId} />} />

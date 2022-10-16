@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #ebefff;
+  &__record-button {
+    background-color: #2142ba;
+    color: white;
+    border-radius: 6.25rem;
+    background-image: url("../../assets//Images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 1rem;
+    background-size: 10px;
+    width: 15rem;
+    font-weight: 500;
+    padding: 0.5rem 2rem;
+    line-height: 1.5rem;
+    border: 1px solid #2142ba;
+  }
+  &__logo {
+    width: 8rem;
+    height: 1.25rem;
+    margin: 0.5rem;
+  }
+}
