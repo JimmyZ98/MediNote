@@ -8,7 +8,6 @@ import Notes from "./pages/Notes/Notes";
 function App() {
   const [tsData, settsData] = useState("");
   const [patientId, setpatientId] = useState(null)
-
   useEffect(() => {
     axios
       .get("http://localhost:8080")
@@ -24,12 +23,15 @@ function App() {
   //   axios
   //     .get("http://localhost:8080")
   //     .then((res) => {
-  //       setpatientId(res.data.id);
+  //       console.log(res.data);
   //     })
   //     .catch((err) => {
   //       console.log(err);
   //     });
   // }, []);
+  // console.log(tsData)
+  // console.log(patientId)
+if (patientId != null) {
 
   return (
     <BrowserRouter>
@@ -39,6 +41,7 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
+}
 }
 
 export default App;
