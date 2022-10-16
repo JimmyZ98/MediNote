@@ -17,7 +17,7 @@ function Cards() {
         <div className="cards__patient">
           <div className="cards__patient-infotop">
             <div className="cards__patient-name">Regular Patient Check-up</div>
-            <div className="cards__patient-date">Last visit: Oct. 15, 2022</div>
+            <div className="cards__patient-date">Oct. 15, 2022</div>
           </div>
           <div className="cards__patient-infobottom">
             <div className="cards__patient-registration">
