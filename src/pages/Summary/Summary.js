@@ -1,20 +1,27 @@
 import "./Summary.scss";
-
+import Cards from "../../components/Cards/Cards";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 function Summary() {
-    return (
-      <>
+  return (
+    <>
+      <div className="summary">
+        <div className="summary__container">
+          <div className="summary__title">Patient: Lydia</div>
+        </div>
 
-      <div className="summary__header">
-    <img className="summary__logo" src={require("../../assets/Images/Logo.png")}/>
-    <button className="summary__record-button"> Record new Patient Note</button>
-    </div>
-    <div className="summary__container">
-        <div className> </div>
-    </div>
-      </>
-    );
-  }
-  
-  export default Summary;
-  
+          <Tabs className="summary__buttons">
+            <TabList>
+              <Tab className="summary__button-active">Regular Visit</Tab>
+              <Tab className="summary__button"> Focused Visit</Tab>
+              <Tab className="summary__button">Vaccination</Tab>
+            </TabList>
+          </Tabs>
+
+        <Cards />
+      </div>
+    </>
+  );
+}
+
+export default Summary;
